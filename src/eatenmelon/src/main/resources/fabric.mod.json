@@ -18,8 +18,7 @@
 		"main": [
 			"com.eatenmelon.TemplateMod",
 			"com.eatenmelon.blocks.BlocksMod",
-			"com.eatenmelon.items.ItemsMod",
-			"com.eatenmelon.itemgroups.ToolTipMod"
+			"com.eatenmelon.items.ItemsMod"
 		],
 		"client": [
 			"com.example.TemplateModClient"

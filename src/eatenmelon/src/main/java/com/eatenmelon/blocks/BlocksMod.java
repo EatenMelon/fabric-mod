@@ -16,8 +16,8 @@ import org.slf4j.LoggerFactory;
 public class BlocksMod implements ModInitializer  {
     public static final Logger LOGGER = LoggerFactory.getLogger("BlocksMod");
     //adding blocks: public static final Block (blockName) = new Block(FabricBlockSettings.create().strength(4.0f).requiresTool());
-    public static final Block CROSS_BLOCK = new Block(FabricBlockSettings.create().strength(1.0f).requiresTool());
-
+    public static final Block CROSS_BLOCK = new CrossBlock(FabricBlockSettings.create().strength(1.0f).requiresTool()) {
+    };
 
     @Override
     public void onInitialize() {
