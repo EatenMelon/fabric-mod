@@ -24,7 +24,7 @@ public class BlocksMod implements ModInitializer  {
         LOGGER.info("Initializing Blocks");
 
         registerBlocks();
-        addToItemGroup();
+        //addToItemGroup();
     }
     private void registerBlocks(){
         //cross_block
@@ -32,8 +32,8 @@ public class BlocksMod implements ModInitializer  {
         Registry.register(Registries.ITEM, new Identifier("eatenmelon", "cross_block"), new BlockItem(CROSS_BLOCK, new FabricItemSettings()));
     }
 
-    private void addToItemGroup(){
+    /*private void addToItemGroup(){
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> content.add(CROSS_BLOCK));
-    }
+    }*/
 
 }

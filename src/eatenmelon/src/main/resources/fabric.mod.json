@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.eatenmelon.TemplateMod",
+			"com.eatenmelon.ItemGroupMod",
 			"com.eatenmelon.blocks.BlocksMod",
 			"com.eatenmelon.items.ItemsMod"
 		],
