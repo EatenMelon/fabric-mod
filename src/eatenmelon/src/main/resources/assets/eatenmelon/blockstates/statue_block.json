@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "eatenmelon:block/statue_block", "uvlock": false },
+    "facing=east":  { "model": "eatenmelon:block/statue_block", "y":  90, "uvlock": false },
+    "facing=south": { "model": "eatenmelon:block/statue_block", "y": 180, "uvlock": false },
+    "facing=west":  { "model": "eatenmelon:block/statue_block", "y": 270, "uvlock": false }
+  }
+}

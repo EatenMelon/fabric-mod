@@ -1,6 +1,8 @@
 {
   "replace": true,
   "values": [
-    "eatenmelon:cross_block"
+    "eatenmelon:cross_block",
+    "eatenmelon:stone_statue",
+    "eatenmelon:statue_block"
   ]
 }

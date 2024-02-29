@@ -23,6 +23,7 @@ import org.slf4j.LoggerFactory;
 				entries.add(ItemsMod.CROSS);
 				entries.add(ItemsMod.RING);
 				entries.add(BlocksMod.CROSS_BLOCK);
+				entries.add(BlocksMod.STONE_STATUE);
 			})
 			.build();
 

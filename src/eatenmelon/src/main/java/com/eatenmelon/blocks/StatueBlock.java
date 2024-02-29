@@ -18,9 +18,9 @@ import org.jetbrains.annotations.Nullable;
 
 
 
-public class StoneStatue extends HorizontalFacingBlock implements Waterloggable {
+public class StatueBlock extends HorizontalFacingBlock implements Waterloggable {
     //Making stone statue a directional block:
-    public StoneStatue(Settings settings) {
+    public StatueBlock(Settings settings) {
         super(settings);
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
@@ -53,17 +53,10 @@ public class StoneStatue extends HorizontalFacingBlock implements Waterloggable 
         return null;
     }
 
-
-
-    @Override
-    public void onPlaced(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
-        super.onPlaced(world, pos, state, placer, itemStack);
-        world.setBlockState(pos.up(1), (BlocksMod.STATUE_BLOCK).getDefaultState().with(FACING,state.get(FACING)));
-    }
     @Override
     public void onBroken(WorldAccess world, BlockPos pos, BlockState state) {
         super.onBroken(world, pos, state);
 
-        world.removeBlock(pos.up(1),false);
+        world.removeBlock(pos.down(1),false);
     }
 }
