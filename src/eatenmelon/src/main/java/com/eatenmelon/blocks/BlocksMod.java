@@ -18,7 +18,7 @@ public class BlocksMod implements ModInitializer  {
     public static final Block CROSS_BLOCK = new CrossBlock(FabricBlockSettings.create().strength(1.0f).requiresTool()) {};
 
     //public static final Block STONE_STATUE = new StoneStatue(FabricBlockSettings.create().strength(1.0f).requiresTool()) {};
-    public static final Block STONE_STATUE = new StoneStatue(FabricBlockSettings.create().strength(1.0f).requiresTool());
+    public static final Block STONE_STATUE = new StoneStatue(FabricBlockSettings.create().strength(1.0f).requiresTool()) {};
     @Override
     public void onInitialize() {
         LOGGER.info("Initializing Blocks");
