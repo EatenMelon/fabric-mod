@@ -1,6 +1,9 @@
 {
   "item.eatenmelon.cross": "Red Cross",
   "item.eatenmelon.ring": "Golden Ring",
+  "item.eatenmelon.magic_gem": "Magic Gem",
+  "item.eatenmelon.magic_stone": "Magic Stone",
+  "item.eatenmelon.magic_sword": "Magic Sword",
   "block.eatenmelon.cross_block": "Cross Block",
   "block.eatenmelon.stone_statue": "Stone Statue"
 }

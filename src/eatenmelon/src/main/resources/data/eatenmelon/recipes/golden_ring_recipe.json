@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "item": "eatenmelon:ring",
+        "count": 1
+    }
+}

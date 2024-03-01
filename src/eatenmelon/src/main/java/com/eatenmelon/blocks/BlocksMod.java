@@ -18,10 +18,7 @@ public class BlocksMod implements ModInitializer  {
 
     public static final Block STATUE_BLOCK = new StatueBlock(FabricBlockSettings.create().strength(1.0f).requiresTool()) {};
 
-    public static final StoneStatue STONE_STATUE = Registry.register(
-            Registries.BLOCK,
-            new Identifier("eatenmelon", "stone_statue"),
-            new StoneStatue(FabricBlockSettings.create().strength(1.0f).requiresTool()));
+    public static final Block STONE_STATUE = new StoneStatue(FabricBlockSettings.create().strength(1.0f).requiresTool()) {};
 
     @Override
     public void onInitialize() {
@@ -36,10 +33,11 @@ public class BlocksMod implements ModInitializer  {
         //end
 
         //adding stone_Statue:
+        Registry.register(Registries.BLOCK, new Identifier("eatenmelon", "stone_statue"), STONE_STATUE);
         Registry.register(Registries.ITEM, new Identifier("eatenmelon", "stone_statue"), new BlockItem(STONE_STATUE, new FabricItemSettings()));
         //end
 
-        //adding statue_block
+        //adding statue_block:
         Registry.register(Registries.BLOCK, new Identifier("eatenmelon", "statue_block"), STATUE_BLOCK);
         //end
     }

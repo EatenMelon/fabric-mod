@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "eatenmelon:cross_block"
+        }
+    ],
+    "result": {
+        "item": "eatenmelon:cross",
+        "count": 9
+    }
+}

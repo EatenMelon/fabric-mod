@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "S#S",
+        " _ "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "S": {
+            "item": "minecraft:stone_stairs"
+        },
+        "_": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
+        "item": "eatenmelon:stone_statue",
+        "count": 1
+    }
+}

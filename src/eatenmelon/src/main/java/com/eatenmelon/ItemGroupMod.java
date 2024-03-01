@@ -22,6 +22,9 @@ import org.slf4j.LoggerFactory;
 			.entries((context, entries) -> {
 				entries.add(ItemsMod.CROSS);
 				entries.add(ItemsMod.RING);
+				entries.add(ItemsMod.MAGIC_STONE);
+				entries.add(ItemsMod.MAGIC_GEM);
+				entries.add(ItemsMod.MAGIC_SWORD);
 				entries.add(BlocksMod.CROSS_BLOCK);
 				entries.add(BlocksMod.STONE_STATUE);
 			})

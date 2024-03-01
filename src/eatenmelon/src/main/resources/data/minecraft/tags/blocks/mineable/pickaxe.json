@@ -1,5 +1,5 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
     "eatenmelon:cross_block",
     "eatenmelon:stone_statue",
